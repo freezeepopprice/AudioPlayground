@@ -49,6 +49,7 @@ enum {
 		// position the label on the center of the screen
 		sprite.position =  ccp( size.width /2 - 100, size.height/2 - 60 );
 		sprite.anchorPoint = ccp(.5f,0.f);
+        sprite.scale = 0.7f;
         sprite.tag = kTagHead1;
 		[self addChild: sprite];
 
@@ -56,6 +57,7 @@ enum {
 		// position the label on the center of the screen
 		sprite2.position =  ccp( size.width /2 + 100, size.height/2 - 60 );
 		sprite2.anchorPoint = ccp(.5f,0.f);
+        sprite2.scale = 0.7f;
         sprite2.tag = kTagHead2;
 		[self addChild: sprite2];        
         
